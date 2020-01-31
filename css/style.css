@@ -103,3 +103,15 @@ header{
 .menu li + li{
     padding-left: 10px;
 }
+#modal{
+    display: none;
+}
+/*-------slider------------*/
+.slider{
+    background-image: url("../img/slide2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+
+}
