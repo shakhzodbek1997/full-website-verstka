@@ -206,12 +206,14 @@ header{
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.services_title-box{
+.services_title-box,
+.form_title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
-.services_title-box:before{
+.services_title-box:before,
+.form_title-box:before{
     content: "";
     position: absolute;
     width: 100px;
@@ -220,7 +222,8 @@ header{
     left: 0;
     top: 11px;
 }
-.services_title{
+.services_title,
+.form_title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -228,7 +231,8 @@ header{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 }
-.services_text{
+.services_text,
+.form_text{
     letter-spacing: 0.1px;
 }
 .services_btn a{
@@ -312,10 +316,83 @@ header{
 }
 .about_text{
     margin-bottom: 30px;
+    max-width: 60%;
     letter-spacing: 0.1px;
     line-height: 24px;
     color: #d3d2d2;
 }
 .about_btn.default_btn:after{
     color: #000;
+}
+/*section form*/
+.form{
+    padding-top: 30px;
+}
+.form_inner{
+    padding-bottom: 40px;
+    background-image: url(../img/girl.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.form_box{
+    max-width: 850px;
+    padding-top: 45px;
+}
+.form_box-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.form_box-left{
+    max-width: 260px;
+    width: 100%;
+}
+.form_box-right{
+    width: 555px;
+
+}
+.form_box-inner label,
+.form_box-inner input,
+.form_box-inner textarea{
+    display: block;
+    width: 100%;
+}
+.form_box-inner label{
+    line-height: 36px;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+}
+.form_box-inner input{
+    margin-bottom: 8px;
+    outline:  none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+}
+.form_box-inner select{
+    outline:  none;
+    padding-left: 17px;
+}
+.form_box-inner .jq-selectbox.jqselect{
+    display: block;
+    width: 100%;
+}
+.form_box-inner .jq-selectbox_select{
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    background: transparent;
+    border-radius: 0;
+}
+.form_box-inner textarea{
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    height: 208px;
+    resize: none;
+    margin-bottom: 40px;
+}
+.form_box-inner button{
+    background-color: transparent;
+    color: #282828;
+    float: right;
 }
