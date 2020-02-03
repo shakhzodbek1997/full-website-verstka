@@ -198,20 +198,20 @@ header{
 .slick-prev{
     left: 0;
 }
-.about{
+.services{
     padding:  50px 0 30px;
 }
-.about_top{
+.services_top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.about_title-box{
+.services_title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
-.about_title-box:before{
+.services_title-box:before{
     content: "";
     position: absolute;
     width: 100px;
@@ -220,7 +220,7 @@ header{
     left: 0;
     top: 11px;
 }
-.about_title{
+.services_title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -228,21 +228,21 @@ header{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 }
-.about_text{
+.services_text{
     letter-spacing: 0.1px;
 }
-.about_btn a{
+.services_btn a{
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
     padding: 5px 38px;
     border: 3px solid #e6e6e6;
 }
-.about_items{
+.services_items{
     display: flex;
     justify-content: space-between;
 }
-.about_item{
+.services_item{
     max-width: 360px;
     text-align: center;
     padding: 30px 0 80px;
@@ -251,10 +251,11 @@ header{
     background-color: #f9f9f9;
     box-shadow: 0 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
-.about_item:hover{
+.services_item:hover{
     box-shadow: 0 7px 24.3px 2.7px rgba(74, 255, 250, 0.76);
+    cursor: pointer;
 }
-.about_item-title{
+.services_item-title{
     color: #212020;
     font-size: 18px;
     line-height: 24px;
@@ -262,23 +263,23 @@ header{
     font-family: 'Roboto', sans-serif;
     padding: 24px 0;
 }
-.about_item-text{
+.services_item-text{
     letter-spacing: 0.1px;
     padding: 0 40px 30px;
 }
-.about_item-btn{
+.services_item-btn{
     position: absolute;
     bottom: 40px;
     left: 0;
     right: 0;
 }
-.about_item-btn .default_btn{
+.services_item-btn .default_btn{
     color: #373636;
 }
-.about_item-btn .default_btn:after{
+.services_item-btn .default_btn:after{
     color: #fff;
 }
-.about_item-link{
+.services_item-link{
     color: #050505;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #050505;
@@ -288,5 +289,33 @@ header{
     width: 20%;
 }
 
+/*section about */
 
-
+.about{
+    background-image: url(../img/slider3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    padding: 25px 0 45px;
+}
+.about_inner{
+    min-width: 545px;
+}
+.about_title{
+    padding: 10px 0 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.about_text{
+    margin-bottom: 30px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: #d3d2d2;
+}
+.about_btn.default_btn:after{
+    color: #000;
+}
