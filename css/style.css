@@ -120,6 +120,9 @@ header{
     max-width: 665px;
     margin: 0 auto;
 }
+.slider_item:focus{
+    border: none;
+}
 .slider_title{
     text-transform: uppercase;
     font-size: 30px;
@@ -566,6 +569,10 @@ header{
 .footer_map{
     padding-top: 10px;
     max-width: 630px;
+    width: 100%;
+}
+.footer_map iframe{
+    width: 100%;
 }
 .footer_title{
     font-family: 'Roboto', sans-serif;
@@ -656,4 +663,7 @@ header{
     display: none;
     font-size: 28px;
     cursor: pointer ;
+}
+.fancybox-button svg{
+    color: #ffc222;
 }

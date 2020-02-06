@@ -33,7 +33,24 @@
         float: left;
         margin-right: 50px;
     }
+    .news{
+        padding-bottom: 60px;
+    }
+    .footer_info{
+        max-width: 465px;
+        margin-bottom: 25px;
+
+    }
 }
+@media (max-width: 1050px){
+    .footer_inner{
+        display: block;
+    }
+    .footer_map{
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 900px){
     .slider .slick-btn{
         display: none!important;
