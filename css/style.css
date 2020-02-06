@@ -108,7 +108,7 @@ header{
 }
 /*-------slider------------*/
 .slider{
-    background-image: url("../img/slide2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.6)), url("../img/slide2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

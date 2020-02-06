@@ -1,3 +1,8 @@
+@media (max-width: 900px){
+    .slider .slick-btn{
+        display: none!important;
+    }
+}
 @media (max-width: 700px) {
     .header_btn{
         float: none;
@@ -5,9 +10,9 @@
     .header_contacts{
         text-align: center;
     }
-   /* .header_btn:before{
-        display: none;
-    }*/
+    .header_btn:before{
+        display: block;
+    }
     .header_btn-menu{
         display: block;
     }
@@ -32,6 +37,14 @@
     }
     .menu li + li{
         padding-left: 0;
+    }
+}
+@media (max-width: 414px){
+    .slider_title{
+        font-size:  24px;
+    }
+    .slider_text{
+
     }
 }
 @media (max-width: 400px) {
