@@ -47,6 +47,16 @@
     .form_box-inner .jq-selectbox_select{
         margin-bottom: 10px;
     }
+    .form{
+        padding-bottom: 25px;
+    }
+    .advantages_inner{
+        display: block;
+    }
+    .advantages-item{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 700px) {
     .header_btn{
@@ -104,6 +114,9 @@
 @media (max-width: 400px) {
     .header_btn:before{
         display: block;
+    }
+    .advantages-item{
+        padding: 0;
     }
 }
 
