@@ -8,6 +8,9 @@
         min-height: 330px;
         margin: 30px auto;
     }
+    .form_inner{
+        background-image: none;
+    }
 }
 
 @media (max-width: 900px){
@@ -17,16 +20,32 @@
     .services_top{
         display: block;
     }
-    .services_title-box{
+    .services_title-box,
+    .form_title-box,
+    .news_title-box{
         padding-left: 0;
         text-align: center;
         margin: 0 auto 30px;
     }
-    .services_title-box:before{
+    .services_title-box:before,
+    .form_title-box:before,
+    .news-box:before{
         display: none;
     }
     .services_btn{
         text-align: center;
+    }
+    .form_box-inner{
+        display: block;
+    }
+    .form_box-left{
+        max-width: 100%;
+    }
+    .form_box-right{
+        width: 100%;
+    }
+    .form_box-inner .jq-selectbox_select{
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 700px) {
